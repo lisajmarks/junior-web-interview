@@ -112,7 +112,7 @@ This project is [MIT licensed][mitlicense].
 [TDD]: https://en.wikipedia.org/wiki/Test-driven_development
 [ES6]: http://www.ecma-international.org/ecma-262/6.0/
 [eslint]: https://eslint.org/
-[repository]: https://github.com/GriffinGroupGlobal/web_interview
+[repository]: https://github.com/GriffinGroupGlobal/junior-web-interview
 [react]: https://react.dev/
 
 [commonmark]:https://spec.commonmark.org/]
