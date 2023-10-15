@@ -96,8 +96,6 @@ Please feel free to include them inline as documented source or as additional [C
 
 - We look for creativity, originality, and a good user experience in your application if that's an area you focused on.
 
-- We look for readability, good architectural decisions, modularity, and a solid approach to testing in your code.
-
 ### License
 
 This project is [MIT licensed][mitlicense].
