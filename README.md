@@ -104,7 +104,6 @@ This project is [MIT licensed][mitlicense].
 [git-scm]: https://git-scm.com/
 [github]: https://github.com/
 [nodejs]: https://nodejs.org/en/
-[TDD]: https://en.wikipedia.org/wiki/Test-driven_development
 [ES6]: http://www.ecma-international.org/ecma-262/6.0/
 [eslint]: https://eslint.org/
 [repository]: https://github.com/GriffinGroupGlobal/junior-web-interview
