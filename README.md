@@ -57,9 +57,6 @@ We would like a minimum capability. These are:
 }
 ```
 
-- Try to limit time investment to 30-60 mins max for the initial “get it to work approach”.
-- Share the git repo link that contains your code and readme with steps to execute.
-
 Please do not overthink think this or get too wrapped up in making a bullet proof application. This is a basic
 challenge. Spending significant amounts of time ensuring production level quality is not required. Rather,
 we would like to see your ability to model a UI based on a provided design over production ready, visually
