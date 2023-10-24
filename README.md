@@ -1,4 +1,4 @@
-# EstateSpace Frontend Development Challenge
+<!-- # EstateSpace Frontend Development Challenge
 
 Hi! Thank you for your interest in [EstateSpace][g3website]. Our evaluation processes includes an open-ended coding challenge that will be part of your interview. There is not one correct way to approach this challenge. Rather, we would like to see your approach and your creativity in solving the problem.
 
@@ -94,7 +94,41 @@ Give us a heads up by documenting your code to let us know where and why you con
 As you develop your solution, you may have ideas on other avenues to pursue.
 Please feel free to include them inline as documented source or as additional [Common Mark][commonmark] compliant notes in your fork.
 
-- We look for creativity, originality, and a good user experience in your application if that's an area you focused on.
+- We look for creativity, originality, and a good user experience in your application if that's an area you focused on. -->
+
+## Running the webapp
+
+- `npm install` followed by `npm run dev`.
+- This should start the single page web application accessible via http://localhost:5173 that will show the form
+
+## General Approach: 
+- I looked at each of the components and reviewed their props and behaviors 
+- Open the design in the mock folder and see what changes need to be made
+- Use React state to store form field values 
+- Use JSON stringify to output data on save button onClick action 
+- For general copy strings, store in an array constant at top of file for easy editing
+- CSS Approach: 
+    - Removed border from const `containerCN`
+    - Use grid layout to format each container in the appropriate layout 
+    - Add a line to the bottom of the first two  CollapsibleSections 
+
+## Summary of Changes: 
+- Remove Nav bar 
+- Progress Tracker: 
+    - Add “Add New Client” string 
+    - Add the following missing props  `onStepClick`, `selectedIndex`, `steps` to Progress Tracker
+- Reuse the `<CollapsibleSection>` component three times for the other main sections of the form 
+    - Overview Section 
+        - Add two `<Dropdown>` components and one `<input>` component 
+        - Add the following missing props `onChange`, `options` and `value` to Dropdown 
+        - Add the following missing props `onChange`, `placeholder`, and `value` to Input component
+    - Similar process applied for Owner Information and Location Information 
+
+## Future Suggestions: 
+- Put Tailwind CSS In a dedicated CSS file 
+- Add overview fields (eSpaceName, companyName, and subscriptions) to an Overview object instead of being top level fields 
+- Add validation where approriate. Examples: postal code and phone numbers 
+
 
 ### License
 
